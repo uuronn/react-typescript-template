@@ -2,7 +2,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./App";
+import Home from "./Home";
 import "./reset.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

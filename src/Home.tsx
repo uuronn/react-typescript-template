@@ -1,5 +1,15 @@
+import { css } from "@emotion/react";
+
 function Home() {
-  return <div>hello world</div>;
+  return (
+    <div
+      css={css`
+        background: pink;
+      `}
+    >
+      hello world
+    </div>
+  );
 }
 
 export default Home;
